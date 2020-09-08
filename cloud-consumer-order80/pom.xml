@@ -58,6 +58,12 @@
             <version>2.2.1.RELEASE</version>
             <scope>compile</scope>
         </dependency>
+
+        <!--包含了sleuth+zipkin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
     </dependencies>
 
 
