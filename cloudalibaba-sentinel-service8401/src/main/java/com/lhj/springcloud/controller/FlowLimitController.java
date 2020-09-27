@@ -23,6 +23,7 @@ public class FlowLimitController {
 
 
     @GetMapping("/testA")
+    @SentinelResource(value = "testA")
     public String testA() {
 
         log.info(Thread.currentThread().getName() + "...testA");
